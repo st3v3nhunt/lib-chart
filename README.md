@@ -3,7 +3,7 @@
 > Setup a chart to use a library chart based on
 [Helm 3 library charts](https://helm.sh/docs/topics/library_charts/)
 
-## Overview
+## Overview
 
 Following the guidance from
 [Helm 3 library charts](https://helm.sh/docs/topics/library_charts/)
@@ -23,7 +23,7 @@ repository needs to be added to the repos accessible by the client. This is
 achieved via
 `helm repo add incubator https://kubernetes-charts-incubator.storage.googleapis.com/`
 
-### Update dependencies
+### Update dependencies
 
 As changes are made to the local library chart the consuming chart needs to be
 instructed to update to the latest version. This is achieved via
